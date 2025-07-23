@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Title</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="script.js"></script>
+        <style>
+            img {border-radius: 50%; 
+            border: solid;
+            padding: 12px;
+            display: block;
+            margin: auto;}
+            p {color: red;
+                font-size: 2em;
+            }
+            .title {color: green; 
+                font-size: 1.5em;}
+            * {font-family: Helvetica, sans-serif}
+            /* optional selectors (This is a comment, so is skipped)
+             * .something is a class, so multiple elements, same rule
+             * #something is ID unique rules for this element
+            .title { color: deeppink;} 
+            #mainDiv {color: darkmagenta}
+            */
+            #boxdemo {
+                border-radius: 0%;
+                border: dotted;
+                margin: 100px;
+            }
+        </style>
+    </head>
+    <body>
+        <img width="120px" src="17e62d84-37f3-42b2-af37-c08c7beba06b_large.webp">
+        <img width="120px" id="boxdemo" src="17e62d84-37f3-42b2-af37-c08c7beba06b_large.webp">
+        <h1 class="title">David Amador</h1>
+        <div id="mainDiv">Marketing expert :)</div>
+        <h2>Contact information</h2>
+        <p class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id enim leo.</p>
+        <h2>About me</h2>
+        <p>Mauris id enim leo. Donec pretium mi non feugiat ultricies.</p>
+        <h2>Skills</h2>
+        <p>Mauris id enim leo. Donec pretium mi non feugiat ultricies.</p>
+        <h3>Work Experience</h3>
+        <br/>
+        <table>
+            <tr>
+                <td>Company</td>
+                <td>Position</td>
+                <td>Duration</td>
+            </tr>
+            <tr>
+                <td>Cumberland College</td>
+                <td>Instructor</td>
+                <td>2 Years</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Ojiva Consultores</td>
+                <td>CTO</td>
+                <td>8 Years</td>
+            </tr>
+            <tr>
+                <td>Table: To start the table</td>
+                <td>TR: Table Row</td>
+                <td>TD: Table Data</td>
+                <td>TD: Table Data</td>
+            </tr>
+        </table>
+        
+                <button onclick="buttonClicked()">Click me</button>
+
+    </body>
+</html>
